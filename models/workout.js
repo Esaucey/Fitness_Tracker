@@ -5,6 +5,7 @@ const Schema = mongoose.Schema;
 const workoutSchema = new Schema({
     day: {
         type: Date,
+        default: Date.now
       },
     exercises: [
         {
@@ -32,10 +33,13 @@ const workoutSchema = new Schema({
     sets: {
         type: String,
         required: true
+    },
+    distance: {
+        type: Number,
+        require: true
     }   
         }
     ]
-    
 });
 
 const Workout = mongoose.model("Workout", workoutSchema);
