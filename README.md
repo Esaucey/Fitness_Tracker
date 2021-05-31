@@ -26,4 +26,4 @@ Go to the dashboard and you can see both charts that track your workout time and
 
 ## Deployment
 
-[Fitness Tracker](https://esaucey.github.io/Fitness_Tracker)
+[Fitness Tracker](https://fitness-tracker131.herokuapp.com/)
